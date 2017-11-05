@@ -1,0 +1,166 @@
+.icon-sprite{
+    background: url('../images/sprite.png') no-repeat;
+    margin: 0 auto;
+    display: inline-block;
+    background-size: 480px;
+}
+
+.icon-map{
+    @include half-width-height(46,48);
+    @include background-position(0,0);   
+}
+.icon-truck{
+    @include half-width-height(89,39);
+    @include background-position(55,9);
+}
+.icon-user{
+    @include half-width-height(33,36);
+    @include background-position(161,6);
+}
+.icon-user-dark{
+    @include half-width-height(33,36);
+    @include background-position(741,76);
+}
+.icon-phone,
+.icon-phone-inverted{
+    @include half-width-height(37,47);
+}
+.icon-phone{
+    @include background-position(208,0);
+}
+.icon-phone-inverted{
+    @include background-position(208,50);
+}
+.icon-phone-inverted-small{
+    @include half-width-height(25,32);
+    @include background-position(167,58);
+}
+.icon-cart{
+    @include half-width-height(50,40);
+    @include background-position(255,0);
+}
+.icon-cart-empty{
+    @include half-width-height(50,40);
+    @include background-position(255,50);
+}
+.icon-arrow-cirle-right{
+    @include half-width-height(34,32);
+    @include background-position(320,0);
+}
+.icon-arrow-cirle-right-blue{
+    @include half-width-height(26,26);
+    @include background-position(324,46);
+}
+.icon-arrow-top{
+    @include half-width-height(24,25);
+    @include background-position(368,3);
+}
+.icon-arrow-bot{
+    @include half-width-height(24,25);
+    @include background-position(368,43);
+}
+.icon-drop-arrow{
+    @include half-width-height(24,11);
+    @include background-position(406,14);
+}
+.icon-drop-arrow-darker{
+    @include half-width-height(24,14);
+    @include background-position(406,59);
+}
+.icon-search-light{
+    @include half-width-height(33,33);
+    @include background-position(444,3);
+}
+.icon-search-dark{
+    @include half-width-height(34,33);
+    @include background-position(502,3);
+}
+.icon-search-darker{
+    @include half-width-height(34,33);
+    @include background-position(444,36);
+}
+.icon-drop-big{
+    @include half-width-height(74,40);
+    @include background-position(573,0);   
+}
+.icon-mail{
+    @include half-width-height(48,30);
+    @include background-position(666,0);   
+}
+.icon-orange-arrow{
+    @include half-width-height(18,9);
+    @include background-position(742,0);   
+}
+.icon-best-seller{
+    @include half-width-height(162,29);
+    @include background-position(792,0);   
+}
+.icon-pdf{
+    @include half-width-height(61,80);
+    @include background-position(0,84);   
+}
+.icon-lock{
+    @include half-width-height(32,44);
+    @include background-position(99,120);   
+}
+.icon-close-rounded{
+    @include half-width-height(30,30);
+    @include background-position(226,129);   
+    cursor: pointer;
+}
+.icon-users{
+    @include half-width-height(83,47);
+    @include background-position(295,140);   
+}
+.icon-cloud{
+    @include half-width-height(82,42);
+    @include background-position(406,139);   
+}
+.icon-graph-chart{
+    @include half-width-height(64,46);
+    @include background-position(519,141);   
+}
+.icon-gear{
+    @include half-width-height(64,64);
+    @include background-position(615,134);   
+}
+.icon-qoute{
+    @include half-width-height(93,72);
+    @include background-position(714,129);   
+}
+.icon-single-check{
+    @include half-width-height(39,29);
+    @include background-position(482,70);   
+}
+.icon-key{
+    @include half-width-height(38,49);
+    @include background-position(591,71);   
+}
+.icon-reciept{
+    @include half-width-height(36,40);
+    @include background-position(678,74);      
+}
+.icon-modal-close{
+    @include half-width-height(50,50);
+    @include background-position(848,142);      
+}
+.icon-fb{
+    @include half-width-height(66,65);
+    @include background-position(13,233);      
+}
+.icon-twitter{
+    @include half-width-height(64,65);
+    @include background-position(99,233);      
+}
+.icon-twitter{
+    @include half-width-height(66,65);
+    @include background-position(99,233);      
+}
+.icon-twitter2{
+    @include half-width-height(65,65);
+    @include background-position(190,233);      
+}
+.icon-contact-info{
+    @include half-width-height(60,66);
+    @include background-position(275,233);      
+}
